@@ -55,7 +55,6 @@ def removeFromList(seznam, hodnota):
     for i in range (0, len(seznam)-1 ):
         print(i)
         if seznam[i] == hodnota:
-            print(seznam[i])
             del seznam[i]
     return seznam
 
